@@ -1,34 +1,38 @@
-/* CSS files add styling rules to your content */
-
 body {
   font-family: helvetica, arial, sans-serif;
   line-height: 1.5;
   max-width: 600px;
-  margin: 2em;
+  margin: 0 5em;
 }
 
 h1 {
   font-style: italic;
   color: #373fff;
+  font-size: 50px;
 }
 
-.example-box {
-  padding: 40px 20px;
-  text-align:center;
-  border: 1px solid #ddd;
-  max-width: 400px;
+img{
+  width: 100%;
+  height: auto;
 }
 
-.button {
+p{
+  font-size: 21px;
+  margin-top: 25px;
+}
+
+
+a {
+  cursor: pointer;
+  border-radius: 8px;
   display: inline-block;
-  padding: 10px;
-  background: purple;
+  padding: 15px 25px;
+  background: #373fff;
   color: white;
   text-align:center;
   text-decoration: none;
   margin: 0 auto;
-}
-
-.button:hover {
-  background: magenta;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
